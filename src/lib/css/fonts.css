@@ -2,26 +2,40 @@
     font-family: "Karla";
     font-style: normal;
     font-weight: 200 800;
-    src: url('fonts/Karla-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/Karla-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Karla";
     font-style: italic;
     font-weight: 200 800;
-    src: url('fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Playfair Display";
     font-style: normal;
     font-weight: 400 900;
-    src: url('fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Playfair Display";
     font-style: italic;
     font-weight: 400 900;
-    src: url('fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 100 800;
+    src: url('/fonts/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 100 800;
+    src: url('/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf') format('truetype');
 }

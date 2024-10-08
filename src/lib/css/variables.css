@@ -4,5 +4,14 @@
 	--emilyred: #800000;
 	--emilyred-hover: #a00000;
 	--emilygrey: #595959;
-	--emilyfooter: #aaaaaa;
+    --emilylightishgrey: #aaaaaa;
+    --emilylightgrey: #f8f8f8;
+    --emilygreen: #135b0b;
+    --emilypurple: #4a0b5b;
+    --emilyblue: #0b405b;
+
+    /* Font settings */
+    --font-text: 'Karla', 'Helvetica', 'Arial', 'Sans-Serif';
+    --font-heading: 'Playfair Display', 'Times New Roman', 'Serif';
+    --font-monospace: 'JetBrains Mono', 'Courier New', 'Monospace';
 }

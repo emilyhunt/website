@@ -3,6 +3,7 @@
 	import '$lib/css/main.css';
 	import '$lib/css/variables.css';
 	import '$lib/css/fonts.css';
+	import '$lib/css/code.css';
 	const year = new Date().getFullYear();
 
 	function pathIs(string) {
@@ -15,16 +16,16 @@
 </script>
 
 <header>
-    <div class="logo">
-	    <h2 class="site-heading">Dr. Emily L. Hunt</h2>
-	    <p class="site-subheading">ASTRONOMER & SCIENCE COMMUNICATOR</p>
-    </div>
+	<div class="logo">
+		<h2 class="site-heading">Dr. Emily L. Hunt</h2>
+		<p class="site-subheading">ASTRONOMER & SCIENCE COMMUNICATOR</p>
+	</div>
 	<div class="navigation">
 		<a href="/" class:current-page={pathIs('/')}>Home</a>
-		<a href="research/" class:current-page={pathStartsWith('/research')}>Research</a>
-		<a href="blog/" class:current-page={pathStartsWith('/blog')}>Blog</a>
+		<a href="/research/" class:current-page={pathStartsWith('/research')}>Research</a>
+		<a href="/blog/" class:current-page={pathStartsWith('/blog')}>Blog</a>
 		<a href="https://cv.emily.space" target="_blank">CV</a>
-		<a href="about/" class:current-page={pathStartsWith('/about')}>About</a>
+		<a href="/about/" class:current-page={pathStartsWith('/about')}>About</a>
 	</div>
 </header>
 
@@ -42,6 +43,7 @@
 	header {
 		width: 100%;
 		text-align: center;
+        margin-bottom: 30px;
 	}
 	.navigation,
 	.footer {
@@ -79,28 +81,28 @@
 	.slot-container {
 		margin-left: auto;
 		margin-right: auto;
-		width: min(800px, 95vw);
+		width: min(800px, 90vw);
 	}
-    .navigation > a {
+	.navigation > a {
 		text-transform: uppercase;
-		font-size: 20pt;
-		font-weight: 400;
+		font-size: 18pt;
+		font-weight: 650;
 	}
-    .site-heading {
-        margin-top: 0px;
-        padding: 0px;
-        font-size: 40pt;
-        font-weight: 500;
-        margin-bottom: 0px;
-    }
-    .site-subheading {
-        font-size: 14pt;
-        font-weight: 700;
-        margin-top: 5px;
-        margin-bottom: 0px;
-    }
-    .logo {
-        margin-top: 5px;
-        margin-bottom: 20px;
-    }
+	.site-heading {
+		margin-top: 0px;
+		padding: 0px;
+		font-size: 40pt;
+		font-weight: 500;
+		margin-bottom: 0px;
+	}
+	.site-subheading {
+		font-size: 14pt;
+		font-weight: 700;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	.logo {
+		margin-top: 5px;
+		margin-bottom: 20px;
+	}
 </style>

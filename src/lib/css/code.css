@@ -1,0 +1,122 @@
+/*
+Adapted from PrismJS themes https://github.com/PrismJS/prism-themes
+*/
+
+code[class*='language-'],
+pre[class*='language-'] {
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* pre[class*='language-']::-moz-selection,
+pre[class*='language-'] ::-moz-selection,
+code[class*='language-']::-moz-selection,
+code[class*='language-'] ::-moz-selection {
+	color: black;
+}
+
+pre[class*='language-']::selection,
+pre[class*='language-'] ::selection,
+code[class*='language-']::selection,
+code[class*='language-'] ::selection {
+	color: black;
+} */
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+	padding: 0.1em;
+	border-radius: 0.3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.cdata {
+	color: var(--emilygrey); /* fg4 / gray1 */
+}
+
+.token.delimiter,
+.token.boolean,
+.token.keyword,
+.token.selector,
+.token.important,
+.token.atrule {
+	color: var(--emilyred); /* red2 */
+}
+
+.token.operator,
+.token.attr-name {
+	color: var(--emilyred); /* fg4 / gray1 */
+}
+
+.token.punctuation {
+	color: var(--emilygrey);
+}
+
+.token.tag,
+.token.tag .punctuation,
+.token.doctype,
+.token.builtin {
+	color: #b57614; /* yellow2 */
+}
+
+.token.entity,
+.token.number,
+.token.symbol {
+	color: var(--emilygrey); /* purple2 */
+}
+
+.token.property,
+.token.constant,
+.token.variable {
+	color: var(--emilyred); /* red2 */
+}
+
+.token.string,
+.token.char {
+	color: var(--emilygreen); /* green2 */
+}
+
+.token.attr-value,
+.token.attr-value .punctuation {
+	color: var(--emilygrey); /* fg4 / gray1 */
+}
+
+.token.url {
+	color: var(--emilygreen); /* green2 */
+	text-decoration: underline;
+}
+
+.token.function {
+	color: var(--emilypurple); /* yellow2 */
+}
+
+.token.regex {
+	background: var(--emilygreen); /* green2 */
+}
+
+.token.bold {
+	font-weight: bold;
+}
+
+.token.italic {
+	font-style: italic;
+}
+
+.token.inserted {
+	background: var(--emilygrey);
+}
+
+.token.deleted {
+	background: var(--emilyred);
+}

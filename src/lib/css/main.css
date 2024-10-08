@@ -8,16 +8,52 @@ body {
 
 /* TEXT */ 
 :root {
-    font-family: 'Karla';
+    font-family: var(--font-text);
 }
 
 h1, h2, h3, h4, h5, h6 {
     /* color: var(--emilyred); */
-    font-family: 'Playfair Display';
+    font-family: var(--font-heading);
     font-weight: 500;
 }
 
-p {
+h1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 34px;
+    font-weight: 510;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 31px;
+    font-weight: 550;
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+h4 {
+    font-size: 28px;
+    font-weight: 590;
+    margin-top: 26px;
+    margin-bottom: 16px;
+}
+h5 {
+    font-size: 25px;
+    font-weight: 620;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+h6 {
+    font-size: 23px;
+    font-weight: 650;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p, li {
     font-size: 20px;
 }
 
@@ -30,3 +66,27 @@ a:hover {
     color: var(--emilyred-hover);
     text-decoration: none;
 }
+
+
+/* BLOG-ISH ELEMENTS */ 
+blockquote, pre > code {
+    font-family: var(--font-heading);
+    font-size: 16px;
+    display: block;
+    /* font-style: italic; */
+    margin: 30px 0px 30px 0px;
+    padding: 20px 15px 20px 20px;
+    border-left: solid 7px var(--emilyred);
+    background-color: var(--emilylightgrey);
+}
+
+code, pre > code, p > code {
+    font-family: var(--font-monospace);
+}
+
+blockquote > p {
+    font-size: 28px;
+    padding: 0px;
+    margin: 0px;
+}
+
