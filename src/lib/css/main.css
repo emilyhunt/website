@@ -1,0 +1,32 @@
+/* Main CSS file for the site, defining common rules. */
+
+/* LAYOUT */ 
+body {
+    margin-top: 0px;
+}
+
+
+/* TEXT */ 
+:root {
+    font-family: 'Karla';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* color: var(--emilyred); */
+    font-family: 'Playfair Display';
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: var(--emilyred);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--emilyred-hover);
+    text-decoration: none;
+}

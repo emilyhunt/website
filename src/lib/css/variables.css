@@ -1,0 +1,8 @@
+/* All CSS variables used in the project. */
+:root {
+	/* Custom colours */
+	--emilyred: #800000;
+	--emilyred-hover: #a00000;
+	--emilygrey: #595959;
+	--emilyfooter: #aaaaaa;
+}
