@@ -13,7 +13,7 @@
 			<slot />
 		</div>
 	{/if}
-	<div class="flex-child">
+	<div class="flex-child flex-image">
 		<Image {src} {caption} {alt} {style} />
 	</div>
 	{#if swap}
@@ -39,6 +39,9 @@
             flex: 0 0 50%;
             max-width: 375px;
         }
+        .flex-image{
+            order: 0
+        }
     }
     /* Tablets */
     @media screen and (min-width: 801px) and (max-width: 999px) {
@@ -51,16 +54,23 @@
             flex: 0 0 auto;
             max-width: 100%;
         }
+        .flex-image{
+            order: -1
+        }
     }
     /* Phones */
     @media screen and (max-width: 800px) {
         .flex-container {
             flex-flow: column;
-            gap: 0px;
+            gap: 30px;
         }
         .flex-child {
             flex: 0 0 auto;
             max-width: 100%;
+        }
+        .flex-image {
+            order: -1;
+            max-width: 80vw !important;
         }
     }
 </style>

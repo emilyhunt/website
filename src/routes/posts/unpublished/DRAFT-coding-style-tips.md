@@ -5,8 +5,8 @@ authors: ['Emily Hunt']
 tags: ['Programming', 'Coding', 'Python']
 categories: ['Programming']
 description: "Wondering how to get better at coding? This post collects every tip I've found from over the years into one big post!"
-thumbnail: 'images/posts/230824-bluesky-signup/thumbnail.webp'
-image: 'images/posts/230824-bluesky-signup/header.webp'
+thumbnail: '/assets/posts/230824-bluesky-signup/thumbnail.webp'
+image: '/assets/posts/230824-bluesky-signup/header.webp'
 ---
 
 _Reading time: ??? minutes_

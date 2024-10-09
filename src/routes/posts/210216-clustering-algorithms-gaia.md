@@ -17,17 +17,14 @@ tags:
   ]
 categories: ['Star Clusters', 'Machine Learning', 'Paper Summaries']
 description: 'Over a dozen papers have reported new discoveries of open clusters in Gaia data at the time of writing, in less than three years since the release of Gaia DR2. At the core of all papers in this field are clustering algorithms. But which is best at recovering them in Gaia data?'
-thumbnail: 'images/posts/210216_clustering_algorithms_gaia/crossmatches.jpg'
-image: 'images/posts/210216_clustering_algorithms_gaia/crossmatches_wide.jpg'
+thumbnail: '/assets/posts/210216_clustering_algorithms_gaia/crossmatches.jpg'
+image: '/assets/posts/210216_clustering_algorithms_gaia/crossmatches_wide.jpg'
 ---
-
-{{< rawhtml >}}
 
 <div class="info-buttons" style="text-decoration: none">
         <a href="https://ui.adsabs.harvard.edu/abs/2021A%26A...646A.104H/abstract" class="button " style="text-decoration: none">View paper on ADS</a>
         <a href="https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/646/A104" class="button button-base-text" style="text-decoration: none">Download data</a>
 </div>
-{{< /rawhtml >}}
 
 _Reading Time: 8 minutes_
 
@@ -55,7 +52,9 @@ I selected **100 open clusters** from the MWSC catalogue ([Kharchenko et al., 20
 
 These 100 fields contained **1385 open clusters** in total which I was able to crossmatch against after trying to find the 100. This meant that we could also compare to an extra list of objects (albeit without as much human supervision), seeing how the sensitivity of the algorithms was affected by things like cluster distance and size.
 
-{{< figure src="/images/posts/210216_clustering_algorithms_gaia/fields.jpg" height=450px width=675px caption="The 100 fields and their locations on the galactic disk. They’re randomly distributed which gives us a really nice sample of diferent galactic environments. They’re also allowed to overlap, as only the central HEALPix pixel out of the nine per field reliably has no edge effects. (The odd shapes of some fields are due to this plot being in galactic co-ordinates whereas the fields are defined in ra/dec.)" >}}
+![The 100 fields and their locations on the galactic disk. They’re randomly distributed which gives us a really nice sample of diferent galactic environments. They’re also allowed to overlap, as only the central HEALPix pixel out of the nine per field reliably has no edge effects. (The odd shapes of some fields are due to this plot being in galactic co-ordinates whereas the fields are defined in ra/dec.)](/assets/posts/210216_clustering_algorithms_gaia/fields.jpg)
+
+*Figure: The 100 fields and their locations on the galactic disk. They’re randomly distributed which gives us a really nice sample of diferent galactic environments. They’re also allowed to overlap, as only the central HEALPix pixel out of the nine per field reliably has no edge effects. (The odd shapes of some fields are due to this plot being in galactic co-ordinates whereas the fields are defined in ra/dec.*
 
 ## Processing the results
 
@@ -63,7 +62,9 @@ Running the algorithms alone was not enough. HDBSCAN in particular was quite the
 
 In addition to using a cut on parameters proposed by [Cantat-Gaudin et al. (2020)](https://ui.adsabs.harvard.edu/abs/2020A%26A...633A..99C/abstract), I also developed a significance test (that acts a bit like a “signal to noise ratio” for open clusters in Gaia data). By comparing the nearest neighbour distances between stars within a cluster and field stars surrounding a cluster, the test evaluates whether or not the cluster’s nearest neighbour distribution is **incompatible** with being drawn from the field’s nearest neighbour distribution. If so, then that suggests that a **real overdensity** has been found!
 
-{{< figure src="/images/posts/210216_clustering_algorithms_gaia/nn_distances.jpg" height=450px width=450px caption="The distributions the cluster significance test is based on. In the first plot, the nearest neighbour distribution of stars in NGC 6830 is shown in blue – it’s clearly very different to the field stars (shown in black) and has a significance of 20.52 sigma (very high.) On the bottom is a HDBSCAN false positive with 0 sigmas of significance, since the cluster distribution is compatible with being drawn from the field star distribution." >}}
+![The distributions the cluster significance test is based on. In the first plot, the nearest neighbour distribution of stars in NGC 6830 is shown in blue – it’s clearly very different to the field stars (shown in black) and has a significance of 20.52 sigma (very high.) On the bottom is a HDBSCAN false positive with 0 sigmas of significance, since the cluster distribution is compatible with being drawn from the field star distribution.](/assets/posts/210216_clustering_algorithms_gaia/nn_distances.jpg)
+
+*Figure: The distributions the cluster significance test is based on. In the first plot, the nearest neighbour distribution of stars in NGC 6830 is shown in blue – it’s clearly very different to the field stars (shown in black) and has a significance of 20.52 sigma (very high.) On the bottom is a HDBSCAN false positive with 0 sigmas of significance, since the cluster distribution is compatible with being drawn from the field star distribution.*
 
 Finally, I crossmatched to a few other catalogues to see how many objects were found. The crossmatching also accounted for systematics in the source catalogues as well as in Gaia and source data, trying to reduce the number of missed crossmatches as much as possible.
 
@@ -75,7 +76,9 @@ A major constraint on the algorithm’s usefulness is their speed. DBSCAN only t
 
 There were also the remaining 1285 clusters in all of the fields, and putting them plus the 100 main ones together painted an interesting picture of the positive detection rate of the algorithms as a function of distance and size:
 
-{{< figure src="/images/posts/210216_clustering_algorithms_gaia/crossmatches_wide.jpg" height=450px width=700px caption="The distance and size dependence of detected clusters for all algorithms. HDBSCAN is noticeably better at close distances, with Gaussian mixture models only detecting the largest clusters." >}}
+![The distance and size dependence of detected clusters for all algorithms. HDBSCAN is noticeably better at close distances, with Gaussian mixture models only detecting the largest clusters.](/assets/posts/210216_clustering_algorithms_gaia/crossmatches_wide.jpg)
+
+*Figure: The distance and size dependence of detected clusters for all algorithms. HDBSCAN is noticeably better at close distances, with Gaussian mixture models only detecting the largest clusters.*
 
 HDBSCAN’s locally-adaptive cluster detection performed best over almost all distances – especially nearby (within \~2 kpc), where open clusters have a larger size on the sky and are locally sparser, but stand out well in proper motion and parallax. DBSCAN’s global parameter can only be optimised for one part of a dataset (typically for more distant clusters), causing it to perform poorly without cutting the data in some other way and doing repeat runs. Gaussian mixture models were mediocre as a function of distance but did ok at some of the very nearest objects.
 
@@ -87,7 +90,9 @@ Finally, we were encouraged by the reviewer to investigate whether or not we fou
 
 Regardless, it goes to show that more work needs to be done to extract all open clusters hiding in Gaia data – and a new methodology should be very helpful to achieve this!
 
-{{< figure src="/images/posts/210216_clustering_algorithms_gaia/new_ocs.jpg" height=450px width=700px caption="Some of the candidate new objects! Nearby literature clusters are plotted too." >}}
+![Some of the candidate new objects! Nearby literature clusters are plotted too.](/assets/posts/210216_clustering_algorithms_gaia/new_ocs.jpg)
+
+*Figure: Some of the candidate new objects! Nearby literature clusters are plotted too.*
 
 ## Conclusion
 

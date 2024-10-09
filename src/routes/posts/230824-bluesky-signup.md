@@ -1,12 +1,13 @@
 ---
 title: 'How to get started on Bluesky'
-date: 2023-08-24T09:00:00+01:00
+date: 2023-08-24
+updated: 20224-08-20
 authors: ['Emily Hunt']
 tags: ['Twitter', 'Bluesky', 'Social media', 'Feeds', 'Federation', 'Mastodon']
 categories: ['Bluesky', 'Social media']
 description: "Twitter was an amazing resource for networking and discussion in astronomy. But since Elon Musk's increasingly disastrous takeover of the platform, everyone has been looking for better alternatives to Musk's Twitter. Bluesky is one such option that I'll explain in this post."
-thumbnail: 'images/posts/230824-bluesky-signup/thumbnail.webp'
-image: 'images/posts/230824-bluesky-signup/header.webp'
+thumbnail: '/assets/posts/230824-bluesky-signup/thumbnail.webp'
+image: '/assets/posts/230824-bluesky-signup/header.webp'
 ---
 
 _Reading time: 5 minutes_ -- _Last updated: 20th August 2024_
@@ -70,7 +71,9 @@ Once you're following at least a few people, the **"Search" tab** on the web/app
 
 You can keep loading more suggestions as much as you like!
 
-{{< figure src="/images/posts/230824-bluesky-signup/search_tab.png" height=400px caption="The Search tab on Bluesky, including the very useful 'In Your Network' set of follow suggestions." >}}
+![The Search tab on Bluesky, including the very useful 'In Your Network' set of follow suggestions.](/assets/posts/230824-bluesky-signup/search_tab.png)
+
+*Figure: The Search tab on Bluesky, including the very useful 'In Your Network' set of follow suggestions.*
 
 
 ### Account-specific suggestions

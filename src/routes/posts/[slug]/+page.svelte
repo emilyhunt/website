@@ -1,14 +1,10 @@
 <!-- svelte-ignore non_reactive_update -->
 <script>
 	import Image from '$lib/blocks/Image.svelte';
+	import { formatDate } from '$lib/js/dates';
 	let { data } = $props();
 
 	const metadata = data.metadata;
-
-	function formatDate(dateString) {
-		const date = new Date(dateString);
-		return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
-	}
 
 	let dateInformation = 'Date undefined';
 	if (metadata.date) {
@@ -17,9 +13,9 @@
 			dateInformation += ` | Last updated: ${formatDate(metadata.updated)}`;
 		}
 	}
-	let primaryCategory = 'Uncategorised';
+	let categories = ['Uncategorised'];
 	if (data.metadata.categories) {
-		primaryCategory = data.metadata.categories[0];
+		categories = data.metadata.categories;
 	}
 </script>
 
@@ -28,14 +24,14 @@
 		<div class="header-image">
 			<Image
 				src={metadata.image}
-				alt={"Article header image."}
+				alt={'Article header image.'}
 				style="margin: auto; width: min(600px, 90vw); height: 250px; object-fit: cover; object-position: 50%"
 			/>
 		</div>
 	{/if}
 	<div class="info">
 		<h1 class="heading">{data.metadata.title}</h1>
-		<p class="category">{primaryCategory}</p>
+		<p class="category">{categories.join(", ")}</p>
 		<p class="date">{dateInformation}</p>
 	</div>
 	{@render data.content()}

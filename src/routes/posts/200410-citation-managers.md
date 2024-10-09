@@ -24,8 +24,8 @@ tags:
   ]
 categories: ['Research Tools']
 description: Citation managers are a fantastic tool for keeping track of research - but there are so many different options out there. Which one should you use and why?
-thumbnail: 'images/posts/200410_citation_managers/paperpile.jpg'
-image: 'images/posts/200410_citation_managers/papers.jpg'
+thumbnail: '/assets/posts/200410_citation_managers/paperpile.jpg'
+image: '/assets/posts/200410_citation_managers/papers.jpg'
 ---
 
 _Reading Time: 7 minutes – Updated: January 2022_
@@ -46,7 +46,7 @@ It might be tempting to use the most popular citation manager out there, especia
 
 For similar reasons, I also can’t recommend EndNote by Clarivate Analytics, who tried to sue a competitor for reverse-engineering their proprietary format that prevented users from moving away from their platform. After [much outrage](https://www.nature.com/articles/455708a) from the scientific community, the lawsuit for $10 million was dropped.
 
-{{< figure src="/images/posts/200410_citation_managers/meme.jpg" height=384px width=298px caption="A meme about how terrible Elsevier are." align="right" >}}
+![A meme about how terrible Elsevier are.](/assets/posts/200410_citation_managers/meme.jpg)
 
 You do not need to give Elsevier or Clarivate Analytics between $50 to $150 a year to access your research library! Keep scrolling to check out four much more ethical (and sometimes even free!) options.
 
@@ -61,7 +61,7 @@ You do not need to give Elsevier or Clarivate Analytics between $50 to $150 a ye
 
 First off is [Zotero](https://www.zotero.org/)! It’s one of only two open source and completely free options on this list. It has the widest range of integration options, letting you export references to all major writing tools. And it’s truly cross-platform, even with a Linux app and a fantastic Firefox plugin that lets you save any webpage you come across to Zotero.
 
-{{< figure src="/images/posts/200410_citation_managers/zotero.jpg" height=450px width=800px caption="Zotero’s UI, with a toolbar on the right with information. Credit: Zotero" >}}
+![Zotero’s UI, with a toolbar on the right with information. Credit: Zotero](/assets/posts/200410_citation_managers/zotero.jpg)
 
 The default storage of 300MB isn’t much, but you can use the [ZotFile](http://zotfile.com/) plugin to link your Zotero storage to a cloud server of your choice – such as a free 15GB of data from a Google Drive account.
 
@@ -78,7 +78,7 @@ While there are some flashier features that you don’t get compared to other op
 
 Looking for a simpler free option than Zotero? [Jabref](https://www.jabref.org/) has you covered! It’s free and comes with a ton of powerful organisation features, letting you group your library however you please. You can search the literature directly from within the app! Or if you prefer, there are [official browser extensions](https://docs.jabref.org/import-export/import/jabref-browser-extension) for Firefox, Chrome and Vivaldi.
 
-{{< figure src="/images/posts/200410_citation_managers/jabref.jpg" height=450px width=800px caption="Jabref wants you to be happy and organised. It’s cool like that. Credit: Jabref" >}}
+![Jabref wants you to be happy and organised. It’s cool like that. Credit: Jabref](/assets/posts/200410_citation_managers/jabref.jpg)
 
 The big difference with Jabref is that all data is stored locally using BibTeX (the native format for LaTeX references). This has pros and cons: you have essentially limitless storage (because files are kept locally) and it integrates very well with LaTeX – including popular editors like LyX. But it doesn’t have any native cloud synchronisation (unlike everything else on this list!), doesn’t have tools for collaboration, and doesn’t play so nicely with Word (without a bridge between the BibTeX format and Microsoft’s systems.)
 
@@ -95,7 +95,7 @@ If you want a lightweight & free reference manager, write your papers with LaTeX
 
 Are you an avid Google products user? Next on the list is [Paperpile](https://paperpile.com/welcome), which integrates seamlessly with your Google Drive to give you up to 15GB of free storage from the get go. The modest monthly subscription gives you access to a range of powerful features, such as searching for new references from within the app – all with a (clean and organised UI)[https://paperpile.com/features/reference-manager] that can even let you colour-code your research library.
 
-{{< figure src="/images/posts/200410_citation_managers/paperpile.jpg" height=450px width=800px caption="Ooh, colour coded labels. I want this. Credit: Paperpile" >}}
+![Ooh, colour coded labels. I want this. Credit: Paperpile](/assets/posts/200410_citation_managers/paperpile.jpg)
 
 Some of the other options on this list are major software offerings by big companies. If that isn’t your thing, then I get the impression that Paperpile is a newer, cleaner option that could sit beautifully in your workflow (for less than half the cost of a Netflix subscription). For Google Docs users, it seems like Paperpile is the most bothered about Google Docs integration, which could make it an excellent choice for you.
 
@@ -110,7 +110,7 @@ Some of the other options on this list are major software offerings by big compa
 
 Still not happy? Do you still want more power? [ReadCube’s Papers](https://www.papersapp.com/) gives you even more search tools and integration with your web browser.
 
-{{< figure src="/images/posts/200410_citation_managers/papers.jpg" height=450px width=800px caption="Papers is wonderfully cross-platform. Credit: ReadCube" >}}
+![Papers is wonderfully cross-platform. Credit: ReadCube](/assets/posts/200410_citation_managers/papers.jpg)
 
 In particular, personalised recommendations and lists of related articles could come in extremely handy in finding new papers for you to read and/or cite with minimal effort. This could come in especially handy if your field has a high turnover rate of new papers in many different journals. Once Papers knows what you’re interested in, it could prevent you from ever missing any important research.
 
@@ -127,7 +127,7 @@ Finally, the Word and Google Docs plugin – SmartCite – looks powerful and fa
 
 [Citavi](https://www.citavi.com/en/research) is an older but still much-loved option for citation management. It has a free version, although it’s limited to only storing 100 papers (which really makes the free version more of a trial.) It has nice organisation options, but doesn’t have some of the powerful search functionality that other options on this list have. It also only has a Windows desktop app (although you could make it run on a Mac.)
 
-{{< figure src="/images/posts/200410_citation_managers/citavi.jpg" height=450px width=800px caption="Citavi’s UI. Credit: Citavi" >}}
+![Citavi’s UI. Credit: Citavi](/assets/posts/200410_citation_managers/citavi.jpg)
 
 The biggest advantage of Citavi, in my opinion, is if your university [already has a site-wide license](https://www.citavi.com/en/sitelicenses). It could be a great tool for you to use if you can already use it without needing to commit to spending anything, and if you want a reliable solution you could get running within an hour from finishing reading this blog post. Your university might even already run training sessions on how best to use it!
 

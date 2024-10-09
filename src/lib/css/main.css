@@ -20,37 +20,37 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 44px;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 h2 {
     font-size: 34px;
     font-weight: 510;
-    margin-top: 30px;
+    margin-top: 32px;
     margin-bottom: 20px;
 }
 h3 {
     font-size: 31px;
     font-weight: 550;
-    margin-top: 28px;
-    margin-bottom: 18px;
+    margin-top: 30px;
+    margin-bottom: 16px;
 }
 h4 {
     font-size: 28px;
     font-weight: 590;
-    margin-top: 26px;
-    margin-bottom: 16px;
+    margin-top: 28px;
+    margin-bottom: 14px;
 }
 h5 {
     font-size: 25px;
     font-weight: 620;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 26px;
+    margin-bottom: 12px;
 }
 h6 {
     font-size: 23px;
     font-weight: 650;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 24px;
+    margin-bottom: 10px;
 }
 
 p, li {
@@ -88,5 +88,14 @@ blockquote > p {
     font-size: 28px;
     padding: 0px;
     margin: 0px;
+}
+
+article > p > img, article > img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 600px;
+    object-fit: contain;
 }
 

@@ -20,8 +20,8 @@ tags:
   ]
 categories: ['Research Tools']
 description: Whether you’re looking for an electronic way to read papers, or just an e-mail tool that’s comfy to lounge around with on a couch, tablets can be fantastic productivity tools. Fed up of having paper all over your desk? In this post, we’ll look at the best tablets currently on the market for researchers – and it doesn’t have to be expensive!
-thumbnail: 'images/posts/200119_tablets/remarkable.jpg'
-image: 'images/posts/200119_tablets/remarkable.jpg'
+thumbnail: '/assets/posts/200119_tablets/remarkable.jpg'
+image: '/assets/posts/200119_tablets/remarkable.jpg'
 ---
 
 _Reading Time: 5 minutes_
@@ -40,7 +40,7 @@ All of this information comes from recommendations and my own research when I wa
 
 If you’re looking for quality, I don’t think that there’s much competition for Windows users. Microsoft has poured lots of money and research into making own-brand tablets that leverage all the power that Windows has to offer. The [Surface Go is a fantastic choice](https://www.techradar.com/reviews/microsoft-surface-go) for a tablet with the full power of Windows, a great-feeling stylus and the added bonus of some laptop functionality too. The [headline price](https://www.microsoft.com/en-us/p/surface-go/8v9dp4lnknsz?activetab=pivot:techspecstab) ($399) is misleading though, as the stylus ($79) and type cover (not essential for tablet use, $99) have to be bought separately. Nevertheless, it’s a great device! The integration with Microsoft software (like OneNote) is fantastic too, so you won’t need to hunt around much to get great software for your device.
 
-{{< figure src="/images/posts/200119_tablets/surface-go.jpg" height=450px width=800px caption="The Surface Go tablet and all available accessories. Credit: Microsoft" >}}
+![The Surface Go tablet and all available accessories. Credit: Microsoft](/assets/posts/200119_tablets/surface-go.jpg)
 
 If you’re also looking for a new laptop with enough power to run some code, then you could check out a higher end Surface, like the [Surface Pro 6](https://www.techradar.com/uk/reviews/microsoft-surface-pro-6). It has all of the great tablet functionality, but it’s also a laptop replacement in its own right.
 
@@ -50,7 +50,7 @@ There are plenty of cheaper Windows tablets out there too. I don’t have experi
 
 If you’re already a Mac/iPhone user then it makes most sense to go with one of Apple’s offerings, but don’t let that put you off if you don’t already own an Apple product. The current iPad offerings are great, and cover a range of price points.
 
-{{< figure src="/images/posts/200119_tablets/ipad.jpg" height=450px width=800px caption="The iPad 10.2 in white. Credit: Apple" >}}
+![The iPad 10.2 in white. Credit: Apple](/assets/posts/200119_tablets/ipad.jpg)
 
 For just reading, the [iPad 10.2](https://www.techradar.com/reviews/ipad-102) should have you covered – and costs just €395/$428 when purchased with an Apple Pencil for annotating. Apple’s app store is arguably the most well-established of any on this list, so you’ll find a wealth of great software for working with your research library and for annotating PDFs.
 
@@ -66,7 +66,7 @@ Last on the list are Android tablets. There’s a range of different offerings f
 
 I think the winner for scientists has to be the range of Samsung Galaxy tablets. The included S-Pen stylus is arguably the best out of all Android tablets (essential for annotating papers to be an enjoyable experience) and the prices are competitive.
 
-{{< figure src="/images/posts/200119_tablets/galaxy-tab.jpg" height=450px width=800px caption="The Galaxy Tab S4. Credit: Samsung" >}}
+![The Galaxy Tab S4. Credit: Samsung](/assets/posts/200119_tablets/galaxy-tab.jpg)
 
 At the time of writing, the [Tab S6](https://www.digitaltrends.com/tablet-reviews/samsung-galaxy-tab-s6-review/) is the newest Samsung tablet. However, its newer features just aren’t necessary for reading and annotating papers – so I’d recommend getting the next model down, the Tab S4. It comes with the S-Pen stylus included at a cost of €499. I wouldn’t bother with the keyboard cover unless you don’t already have a laptop – the keyboard cover is quite expensive despite not being very high quality.
 
@@ -76,7 +76,7 @@ I personally own a [Tab S4](https://www.trustedreviews.com/reviews/samsung-galax
 
 If you’re passionate about the feel of paper and don’t mind a device that gives you an amazing writing feeling at the cost of features and a colour screen, then a [reMarkable tablet](https://www.techradar.com/reviews/remarkable-tablet) is worth considering. They’re from a small company and are still slightly experimental, but nothing else replaces the feel of paper better!
 
-{{< figure src="/images/posts/200119_tablets/remarkable.jpg" height=450px width=800px caption="The reMarkable tablet. Credit: reMarkable" >}}
+![The reMarkable tablet. Credit: reMarkable](/assets/posts/200119_tablets/remarkable.jpg)
 
 The reMarkable uses an e-ink display – so instead of a backlight like the LED screens of everything else on this list, pictures are drawn with actual pixels of ink. It makes for the most natural and least eye-strain inducing user experience, albeit at the cost of colour pictures and all running on a proprietary system that doesn’t have functionality above being a notepad and PDF reader. The price of €499 goes towards the experience instead of pure functionality.
 

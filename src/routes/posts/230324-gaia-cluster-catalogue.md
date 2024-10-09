@@ -15,17 +15,14 @@ tags:
   ]
 categories: ['Star Clusters', 'Machine Learning', 'Paper Summaries']
 description: "I created a catalogue of star clusters in the Milky Way using multiple machine learning methods to analyse 729 million sources from Gaia DR3. Here's how!"
-thumbnail: 'images/posts/230324-gaia-cluster-catalogue/thumbnail.webp'
-image: 'images/posts/230324-gaia-cluster-catalogue/header.webp'
+thumbnail: '/assets/posts/230324-gaia-cluster-catalogue/thumbnail.webp'
+image: '/assets/posts/230324-gaia-cluster-catalogue/header.webp'
 ---
-
-{{< rawhtml >}}
 
 <div class="info-buttons" style="text-decoration: none">
         <a href="https://ui.adsabs.harvard.edu/abs/arXiv:2303.13424" class="button " style="text-decoration: none">View paper on ADS</a>
         <a href="https://drive.google.com/drive/folders/1-9R9132g9FGq6xfcjYI5qMWDFYnMttUG?usp=share_link" class="button button-base-text" style="text-decoration: none">Download data</a>
 </div>
-{{< /rawhtml >}}
 
 _Reading time: 2 minutes_
 
@@ -45,25 +42,25 @@ Here's a summary of the results in plot form.
 
 ### A high recovery rate of known clusters, in addition to 749 high-quality new candidates
 
-![your_img](/images/posts/230324-gaia-cluster-catalogue/d_distribution_800.webp)
+![your_img](//assets/posts/230324-gaia-cluster-catalogue/d_distribution_800.webp)
 
 ---
 
 ### High quality membership lists down to G~20, often including tidal tails and other features
 
-![your_img](/images/posts/230324-gaia-cluster-catalogue/tidal_tails_800.webp)
+![your_img](//assets/posts/230324-gaia-cluster-catalogue/tidal_tails_800.webp)
 
 ---
 
 ### Surprising new objects, like this new star cluster that has been hiding behind one of the most famous open clusters for centuries
 
-![your_img](/images/posts/230324-gaia-cluster-catalogue/hsc_2384_800.webp)
+![your_img](//assets/posts/230324-gaia-cluster-catalogue/hsc_2384_800.webp)
 
 ---
 
 ### Homogeneously derived parameters for ~7000 clusters, tracing the structure of the galactic disk
 
-![your_img](/images/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp)
+![your_img](//assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp)
 
 ---
 
@@ -71,4 +68,4 @@ Here's a summary of the results in plot form.
 
 (spoiler alert: many of them probably aren't real)
 
-![your_img](/images/posts/230324-gaia-cluster-catalogue/xmatch_comparison_800.webp)
+![your_img](//assets/posts/230324-gaia-cluster-catalogue/xmatch_comparison_800.webp)

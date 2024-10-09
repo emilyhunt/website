@@ -5,8 +5,8 @@ authors: ['Emily Hunt']
 tags: ['microphone technique', 'public speaking', 'skill', 'sound']
 categories: ['Research Tools']
 description: 'Public speaking is an essential skill in academia. Whether at a conference or while giving a lecture, public speaking is an unavoidable (and sometimes dreaded) part of a career in science. Yet one crucial topic is often overlooked: Microphones, and how to use them.'
-thumbnail: 'images/posts/191119_microphone_technique/0_mic.jpg'
-image: 'images/posts/191119_microphone_technique/5_headset.jpg'
+thumbnail: '/assets/posts/191119_microphone_technique/0_mic.jpg'
+image: '/assets/posts/191119_microphone_technique/5_headset.jpg'
 ---
 
 _Reading Time: 7 minutes_
@@ -25,13 +25,13 @@ To help you become more comfortable with the idea of using a microphone, let’s
 
 The most difficult microphone type for the uninitiated are handhelds. Conquer these and the rest will be a breeze! They look a bit like the image below, and may or may not be wireless. Handheld microphones are common at smaller events or panel discussions. It’s important to hold them confidently and correctly — too far away and it won’t pick up your voice well, and may cause feedback.
 
-{{< figure src="/images/posts/191119_microphone_technique/0_mic.jpg" height=450px width=450px caption="A typical design of a handheld wireless microphone. Credit: Sennheiser" >}}
+![A typical design of a handheld wireless microphone. Credit: Sennheiser](/assets/posts/191119_microphone_technique/0_mic.jpg)
 
 Ideally, you should hold the microphone **about 5 cm (2 in) away and point it directly at your mouth**. It’s tempting to hold it farther away, but try to keep it close by. Having it too close is comparatively much less of an issue than it being too far away.
 
 Also — unless you’re at a conference about hip-hop — don’t cup that mic! It messes with the tone of your voice and could make the microphone more prone to feeding back.
 
-{{< figure src="/images/posts/191119_microphone_technique/technique.jpg" height=450px width=800px caption="A diagram showing correct microphone technique." >}}
+![A diagram showing correct microphone technique.](/assets/posts/191119_microphone_technique/technique.jpg)
 
 If it helps, you can imagine that the microphone is a flashlight and that you want it to light up your smile. Point it at your mouth, keep it close by, and don’t get burnt by cupping the bulb with your hand! It can feel quite odd to hold it correctly: it should feel more horizontal than you think it needs to be and closer to your mouth than you think it should be. Strive to overcome this discomfort and consider karaoke as an excellent time to practice!
 
@@ -41,7 +41,7 @@ Sometimes, handheld microphones are on stands. Remember to adjust the stand befo
 
 Okay! Hard part over. Lectern microphones (a foam blob on the end of a long, bendy stalk) are comparatively easier — they simply need to be adjusted to point at your mouth. To help them out, project your voice naturally as you would if you weren’t in front of a microphone.
 
-{{< figure src="/images/posts/191119_microphone_technique/1_mic.jpg" height=450px width=450px caption="A typical lectern/gooseneck microphone. Credit: Sennheiser" >}}
+![A typical lectern/gooseneck microphone. Credit: Sennheiser](/assets/posts/191119_microphone_technique/1_mic.jpg)
 
 Lectern microphones are quite sensitive, so ignore the 5-cm (2-in) rule from above. In fact, talking into them that close up will probably cause them to sound distorted. Generally, any microphone not designed to be held in your hand doesn’t need to be as close to your mouth as a handheld one. Stand at the lectern and project naturally! They can be a pain because you have to keep talking with your head facing forward to get picked up, but try using presenter notes and callouts on your slides to avoid the need to look back at your slides while talking.
 
@@ -49,15 +49,15 @@ Lectern microphones are quite sensitive, so ignore the 5-cm (2-in) rule from abo
 
 Especially common at conference venues are lapel mics: a small microphone that connects to a wireless pack. The microphone itself clips onto clothing **about 10 cm (4 in) away from your chin**, and doesn’t need to be worried about once set up! Ideally, a sound tech will be on hand to help.
 
-{{< figure src="/images/posts/191119_microphone_technique/3_lapel.jpg" height=450px width=600px caption="A lapel mic on a blazer. Credit: Shure" >}}
+![A lapel mic on a blazer. Credit: Shure](/assets/posts/191119_microphone_technique/3_lapel.jpg)
 
-{{< figure src="/images/posts/191119_microphone_technique/4_lapel.jpg" height=450px width=600px caption="A person being mic’d up Credit: lensrentals.com" >}}
+![A person being mic’d up Credit: lensrentals.com](/assets/posts/191119_microphone_technique/4_lapel.jpg)
 
 Annoyingly, lapel mics tend to work best with buttoned shirts or blazers because they need something to clip onto. Women’s clothing and blouses in particular tend to end too close to the chin, making the mics harder to clip in the right place. As a best practice for lapel mics, make sure that you aren’t wearing any jewelry that could hit the mic.
 
 Headset microphones are an alternative to lapel mics — you might have seen them in [TED talks](https://www.ted.com/talks). They’re not as comfortable as lapel mics and need a sound tech to set up due to their fragility, but will generally sound better and don’t rely on your outfit choice. The end should be **about two to four finger-widths away from the edge of your mouth** to not sound breathy.
 
-{{< figure src="/images/posts/191119_microphone_technique/5_headset.jpg" height=450px width=600px caption="Miho Janvier giving a TED talk in 2017 about solar storms. Spot the headset mic! Credit: TED" >}}
+![Miho Janvier giving a TED talk in 2017 about solar storms. Spot the headset mic! Credit: TED](/assets/posts/191119_microphone_technique/5_headset.jpg)
 
 With both lapel and headset mics, you’ll need somewhere to put the wireless transmitter, which is about the size of a pack of cards and typically has a clip. Wearing clothes with pockets or a belt will help. Microphone manufacturer Shure has a [good article on choosing between headset or lapel microphones](https://www.shure.com/en-US/performance-production/louder/fundamentals-choosing-between-lavalier-and-headset-mics) if you want more reading on the differences between the two.
 
@@ -65,7 +65,7 @@ With both lapel and headset mics, you’ll need somewhere to put the wireless tr
 
 Something I’ve only seen at the University of Bath are lanyard mics, which clip around your neck. Surely they exist somewhere else too? Lanyard mics are useful because they don’t depend on your clothing and are extremely easy to put on (you just have to clip them round your neck).
 
-{{< figure src="/images/posts/191119_microphone_technique/6_lanyard.jpg" height=250px width=250px caption="A lanyard microphone, which clips around your neck. Credit: Revolabs" >}}
+![A lanyard microphone, which clips around your neck. Credit: Revolabs](/assets/posts/191119_microphone_technique/6_lanyard.jpg)
 
 ## Some general tips
 
