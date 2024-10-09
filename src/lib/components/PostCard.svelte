@@ -9,10 +9,14 @@
 		<a href={link}><img src={post.thumbnail} alt="Post thumbnail for blog post {post.title}" /></a>
 	</div>
 	<div class="text-item">
-		<h3 style="margin-top: 0px; margin-bottom: 10px"><a href={link}>{post.published ? "" : "(UNPUBLISHED) "}{post.title}</a></h3>
+		<h3 style="margin-top: 0px; margin-bottom: 10px">
+			<a href={link}>{post.published ? '' : '(UNPUBLISHED) '}{post.title}</a>
+		</h3>
 		<div class="red-line"></div>
 		<p style="margin-top: 0px; margin-bottom: 0px;">
-			<span class="category">{post.categories[0]}</span>
+			<span class="category"
+				><a href="/blog/{post.categories[0].toLowerCase()}">{post.categories[0]}</a></span
+			>
 			<span class="date"> - {formatDate(post.date)}</span>
 		</p>
 	</div>
@@ -58,7 +62,7 @@
 		object-position: 50%;
 		width: 100%;
 	}
-	a {
+	h3 > a {
 		color: black;
 	}
 	a:hover {

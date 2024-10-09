@@ -1,7 +1,7 @@
 ---
 title: 'How to get started on Bluesky'
 date: 2023-08-24
-updated: 20224-08-20
+updated: 2024-08-20
 authors: ['Emily Hunt']
 tags: ['Twitter', 'Bluesky', 'Social media', 'Feeds', 'Federation', 'Mastodon']
 categories: ['Bluesky', 'Social media']

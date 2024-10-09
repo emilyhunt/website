@@ -8,9 +8,13 @@
 	function pathStartsWith(string) {
 		return $page.url.pathname.startsWith(string);
 	}
+
+	const needsWhiteBackground = $derived($page.url.pathname === '/research');
+	const textColor = $derived(needsWhiteBackground ? 'white' : 'black');
+	const currentPageColor = $derived(needsWhiteBackground ? 'var(--emilylightishgrey)' : 'var(--emilyred)');
 </script>
 
-<header>
+<header style:--textColor={textColor} style:--currentPageColor={currentPageColor}>
 	<div class="logo">
 		<h2 class="site-heading">Dr. Emily L. Hunt</h2>
 		<p class="site-subheading">ASTRONOMER & SCIENCE COMMUNICATOR</p>
@@ -28,7 +32,8 @@
 	header {
 		width: 100%;
 		text-align: center;
-        margin-bottom: 30px;
+		margin-bottom: 30px;
+		color: var(--textColor);
 	}
 	.navigation {
 		margin-left: auto;
@@ -38,23 +43,23 @@
 		justify-items: center;
 		flex-flow: row wrap;
 		width: min(1300px, 85vw);
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
+		border-top: 1px solid var(--textColor);
+		border-bottom: 1px solid var(--textColor);
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
 	.navigation > a:link,
 	.navigation > a:visited {
-		color: black;
+		color: var(--textColor);
 	}
 	.navigation > a:hover {
-		color: var(--emilyred);
+		color: var(--currentPageColor);
 	}
 	.navigation > a:not(:first-child) {
 		margin-left: 30px;
 	}
 	.current-page {
-		color: var(--emilyred) !important;
+		color: var(--currentPageColor) !important;
 	}
 	.navigation > a {
 		text-transform: uppercase;
@@ -76,32 +81,31 @@
 		margin-top: 5px;
 		margin-bottom: 20px;
 	}
-    /* Computers */
+	/* Computers */
 	@media only screen and (min-width: 1000px) {
-        .site-heading {
-            font-size: 53px;
-        }
-        .site-subheading {
-            font-size: 19px;
-        }
-    }
+		.site-heading {
+			font-size: 53px;
+		}
+		.site-subheading {
+			font-size: 19px;
+		}
+	}
 	/* Tablets */
 	@media screen and (min-width: 801px) and (max-width: 999px) {
-        .site-heading {
-            font-size: 53px;
-        }
-        .site-subheading {
-            font-size: 19px;
-        }
-    }
+		.site-heading {
+			font-size: 53px;
+		}
+		.site-subheading {
+			font-size: 19px;
+		}
+	}
 	/* Phones */
 	@media screen and (max-width: 800px) {
-        .site-heading {
-            font-size: 40px;
-        }
-        .site-subheading {
-            font-size: 16px;
-        }
+		.site-heading {
+			font-size: 40px;
+		}
+		.site-subheading {
+			font-size: 16px;
+		}
 	}
-    
 </style>

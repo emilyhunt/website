@@ -10,13 +10,15 @@
 	if (metadata.date) {
 		dateInformation = formatDate(metadata.date);
 		if (metadata.updated) {
-			dateInformation += ` | Last updated: ${formatDate(metadata.updated)}`;
+			dateInformation += ` | Updated: ${formatDate(metadata.updated)}`;
 		}
 	}
 	let categories = ['Uncategorised'];
 	if (data.metadata.categories) {
 		categories = data.metadata.categories;
 	}
+	let readingTime = Math.max(Math.round(metadata.readingTime.minutes), 1);
+	readingTime = readingTime === 1 ? '1 minute' : `${readingTime} minutes`;
 </script>
 
 <article>
@@ -31,8 +33,15 @@
 	{/if}
 	<div class="info">
 		<h1 class="heading">{data.metadata.title}</h1>
-		<p class="category">{categories.join(", ")}</p>
-		<p class="date">{dateInformation}</p>
+		<p class="category">
+			{#each categories as category, i}
+				{#if i !== 0}
+					,
+				{/if}
+				<a href="/blog/{category.toLowerCase()}">{category}</a>
+			{/each}
+		</p>
+		<p class="date">{dateInformation} | Reading time: {readingTime}</p>
 	</div>
 	{@render data.content()}
 </article>
@@ -59,5 +68,6 @@
 		font-weight: 600;
 		font-size: 17px;
 		margin-top: 5px;
+		margin-bottom: 0px;
 	}
 </style>

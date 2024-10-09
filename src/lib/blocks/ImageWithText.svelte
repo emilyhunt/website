@@ -62,7 +62,7 @@
     @media screen and (max-width: 800px) {
         .flex-container {
             flex-flow: column;
-            gap: 30px;
+            gap: 0px;
         }
         .flex-child {
             flex: 0 0 auto;

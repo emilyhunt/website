@@ -42,25 +42,25 @@ Here's a summary of the results in plot form.
 
 ### A high recovery rate of known clusters, in addition to 749 high-quality new candidates
 
-![your_img](//assets/posts/230324-gaia-cluster-catalogue/d_distribution_800.webp)
+![your_img](/assets/posts/230324-gaia-cluster-catalogue/d_distribution_800.webp)
 
 ---
 
 ### High quality membership lists down to G~20, often including tidal tails and other features
 
-![your_img](//assets/posts/230324-gaia-cluster-catalogue/tidal_tails_800.webp)
+![your_img](/assets/posts/230324-gaia-cluster-catalogue/tidal_tails_800.webp)
 
 ---
 
 ### Surprising new objects, like this new star cluster that has been hiding behind one of the most famous open clusters for centuries
 
-![your_img](//assets/posts/230324-gaia-cluster-catalogue/hsc_2384_800.webp)
+![your_img](/assets/posts/230324-gaia-cluster-catalogue/hsc_2384_800.webp)
 
 ---
 
 ### Homogeneously derived parameters for ~7000 clusters, tracing the structure of the galactic disk
 
-![your_img](//assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp)
+![your_img](/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp)
 
 ---
 
@@ -68,4 +68,4 @@ Here's a summary of the results in plot form.
 
 (spoiler alert: many of them probably aren't real)
 
-![your_img](//assets/posts/230324-gaia-cluster-catalogue/xmatch_comparison_800.webp)
+![your_img](/assets/posts/230324-gaia-cluster-catalogue/xmatch_comparison_800.webp)

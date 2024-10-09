@@ -1,6 +1,7 @@
 ---
 title: 'Which citation manager should you use?'
 date: 2020-04-10T10:00:00+01:00
+updated: 2022-01-13
 authors: ['Emily Hunt']
 tags:
   [
@@ -28,7 +29,7 @@ thumbnail: '/assets/posts/200410_citation_managers/paperpile.jpg'
 image: '/assets/posts/200410_citation_managers/papers.jpg'
 ---
 
-_Reading Time: 7 minutes – Updated: January 2022_
+_Reading Time: 7 minutes_
 
 As researchers, we get through dozens or even hundreds of papers per year. Science has never been bigger - the total global scientific output [doubles every nine years](http://blogs.nature.com/news/2014/05/global-scientific-output-doubles-every-nine-years.html) - and keeping track of everything can feel impossible at the best of times. This is where citation managers come in!
 
