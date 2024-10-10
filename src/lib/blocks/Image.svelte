@@ -1,8 +1,5 @@
 <script>
-	export let src = '/assets/default.webp';
-	export let caption = '';
-	export let alt = '';
-	export let style = '';
+	let { src = '/assets/default.webp', caption = '', alt = '', style = '' } = $props();
 
 	// If no alt text is set, default to just setting it to the caption
 	const altText = alt ? alt : caption;
@@ -13,7 +10,7 @@
 <!-- <img class={revealClass} style={style} src={imagePath} alt={altText}/> -->
 
 <div>
-	<img style={style} src={src} alt={altText} />
+	<img {style} {src} alt={altText} />
 
 	{#if caption}
 		<p class="caption">{caption}</p>

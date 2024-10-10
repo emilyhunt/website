@@ -21,6 +21,6 @@
 	.slot-container {
 		margin-left: auto;
 		margin-right: auto;
-		width: min(800px, 90vw);  /* PAGE WIDTH */
+		width: var(--content-width);  /* PAGE WIDTH */
 	}
 </style>

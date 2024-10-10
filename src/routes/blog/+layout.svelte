@@ -1,7 +1,7 @@
 <script>
 	import PostList from '../../lib/components/PostList.svelte';
 
-	let { data } = $props();
+	let { data, children } = $props();
 </script>
 
 {#if data.category === 'all'}
@@ -13,6 +13,8 @@
 		<a href="/blog">↻ Return to main blog</a>
 	</p>
 {/if}
+
+{@render children()}
 
 <PostList posts={data.posts} page={data.page} total={data.total} category={data.category} />
 

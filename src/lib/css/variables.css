@@ -1,5 +1,8 @@
 /* All CSS variables used in the project. */
 :root {
+    /* Layout settings */
+    --content-width: min(800px, 90vw);
+
 	/* Custom colours */
 	--emilyred: #800000;
 	--emilyred-hover: #a00000;
