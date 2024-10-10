@@ -1,5 +1,5 @@
 <script>
-	let { children, data } = $props();
+	let { children } = $props();
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
