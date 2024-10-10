@@ -12,9 +12,10 @@
 	/* DYNAMIC WEBSITE TITLE */
 	// From https://github.com/sveltejs/kit/issues/1540#issuecomment-2029016082
 	import { page } from '$app/stores';
-	import { siteTitle } from '$lib/config.js';
+	import { siteTitle, siteURL, siteDescription } from '$lib/config.js';
 	let head = $state({});
 	let defaultKeywords = ['Astronomy', 'Machine Learning', 'Space', 'Science', 'Programming'];
+	let defaultImage = '/assets/video/research-background-thumbnail.jpg';
 
 	function setHead() {
 		// Default settings
@@ -29,9 +30,11 @@
 			.reverse()
 			.filter(Boolean)
 			.join(' - ');
-		head.description = undefined;
+		head.description = siteDescription;
 		head.keywords = defaultKeywords;
 		head.author = siteTitle;
+		head.image = siteURL + defaultImage;
+		head.url = siteURL + $page.url.pathname;
 
 		// Custom settings
 		if ($page.data.pageMeta === undefined) {
@@ -46,6 +49,9 @@
 		if ($page.data.pageMeta.keywords) {
 			head.keywords = [...defaultKeywords, ...($page.data.pageMeta.keywords || [])];
 		}
+		if ($page.data.pageMeta.image) {
+			head.image = siteURL + $page.data.pageMeta.image;
+		}
 	}
 
 	setHead();
@@ -54,15 +60,24 @@
 
 <svelte:head>
 	<title>{head.title}</title>
-	{#if head.description}
-		<meta name="description" content={head.description} />
-	{/if}
-	{#if head.keywords}
-		<meta name="keywords" content={head.keywords.join(' ')} />
-	{/if}
-	{#if head.author}
-		<meta name="author" content={head.author} />
-	{/if}
+	<meta name="title" content={head.title} />
+	<meta name="description" content={head.description} />
+	<meta name="keywords" content={head.keywords.join(' ')} />
+	<meta name="author" content={head.author} />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={head.url} />
+	<meta property="og:title" content={head.title} />
+	<meta property="og:description" content={head.description} />
+	<meta property="og:image" content={head.image} />
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:url" content={head.url} />
+	<meta name="twitter:title" content={head.title} />
+	<meta name="twitter:description" content={head.description} />
+	<meta name="twitter:image" content={head.image} />
 </svelte:head>
 
 <Header />

@@ -8,6 +8,7 @@ export async function load({ params }) {
 			title: post.metadata.title + ' - Blog',
 			description: post.metadata.description,
 			keywords: post.metadata.categories,
+			image: post.metadata.image
 		}
 	};
 }
