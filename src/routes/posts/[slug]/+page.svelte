@@ -1,6 +1,7 @@
 <!-- svelte-ignore non_reactive_update -->
 <script>
 	import Image from '$lib/blocks/Image.svelte';
+	import { siteTitle } from '$lib/config.js';
 	import { formatDate } from '$lib/js/dates';
 	let { data } = $props();
 
@@ -32,7 +33,7 @@
 		</div>
 	{/if}
 	<div class="info">
-		<h1 class="heading">{data.metadata.title}</h1>
+		<h1 class="heading">{metadata.title}</h1>
 		<p class="category">
 			{#each categories as category, i}
 				{#if i !== 0}

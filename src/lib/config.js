@@ -1,3 +1,6 @@
+/* SITE SETTINGS */
+export const siteTitle = 'Dr. Emily L. Hunt';
+
 /* SOCIAL SETTINGS */
 // Ensure that any icons are also in icons.js
 export const socials = {
