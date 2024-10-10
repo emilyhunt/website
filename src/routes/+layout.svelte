@@ -44,7 +44,7 @@
 			head.description = $page.data.pageMeta.description;
 		}
 		if ($page.data.pageMeta.keywords) {
-			head.keywords = [...defaultKeywords, ...($page.datapageMeta.keywords || [])];
+			head.keywords = [...defaultKeywords, ...($page.data.pageMeta.keywords || [])];
 		}
 	}
 
