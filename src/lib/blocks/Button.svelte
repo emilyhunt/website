@@ -1,5 +1,5 @@
 <script>
-	let { href, target = '_self', style = '', short, alt, children } = $props();
+	let { href, target, style = '', short, alt, children } = $props();
 	const finalStyle = short
 		? 'margin-top: 0px; padding-top: 3px; padding-bottom: 5px; ' + style
 		: style;
