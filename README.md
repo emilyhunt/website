@@ -1,3 +1,6 @@
+![GitHub Pages Deployment](https://github.com/emilyhunt/website-v2/actions/workflows/deploy.yml/badge.svg)
+
+
 # My personal website
 
 This is the repo of my personal website (October 2024 redesign). The site is static, hosted on GitHub pages, and is built with [SvelteKit](https://kit.svelte.dev/) and Svelte 5.
