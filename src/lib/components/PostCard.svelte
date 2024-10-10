@@ -1,16 +1,15 @@
 <script>
 	import { formatDate } from '$lib/js/dates';
 	let { post } = $props();
-	const link = `/posts/${post.slug}`;
 </script>
 
 <div class="container">
 	<div class="image-item">
-		<a href={link}><img src={post.thumbnail} alt="Post thumbnail for blog post {post.title}" /></a>
+		<a href="/posts/{post.slug}"><img src={post.thumbnail} alt="Post thumbnail for blog post {post.title}" /></a>
 	</div>
 	<div class="text-item">
 		<h3 style="margin-top: 0px; margin-bottom: 10px">
-			<a href={link}>{post.published ? '' : '(UNPUBLISHED) '}{post.title}</a>
+			<a href="/posts/{post.slug}">{post.published ? '' : '(UNPUBLISHED) '}{post.title}</a>
 		</h3>
 		<div class="red-line"></div>
 		<p style="margin-top: 0px; margin-bottom: 0px;">
