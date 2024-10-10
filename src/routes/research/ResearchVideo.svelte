@@ -2,11 +2,12 @@
 	autoplay
 	muted
 	loop
+	playsinline
 	id="background-video"
 	poster="/assets/video/research-background-thumbnail.jpg"
 >
+	<source src="/assets/video/research-background-1080p.mp4" type="video/mp4" />	
 	<source src="/assets/video/research-background-1080p.webm" type="video/webm" />
-	<source src="/assets/video/research-background-1080p.mp4" type="video/mp4" />
 </video>
 
 <div class="video-overlay">
