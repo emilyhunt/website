@@ -3,7 +3,7 @@
 
 # My personal website
 
-This is the repo of my personal website (October 2024 redesign). The site is static, hosted on GitHub pages, and is built with [SvelteKit](https://kit.svelte.dev/) and Svelte 5.
+This is the repo of [my personal website](https://emily.space) (October 2024 redesign). The site is static, hosted on GitHub pages, and is built with [SvelteKit](https://kit.svelte.dev/) and Svelte 5.
 
 
 ## Developing
