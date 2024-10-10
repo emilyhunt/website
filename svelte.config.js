@@ -13,11 +13,13 @@ const mdsvexOptions = {
 const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
-	adapter: adapter({
-		fallback: '404.html'
-	}),
-	paths: {
-		base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+		}
 	}
 };
 
