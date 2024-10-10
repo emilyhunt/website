@@ -29,8 +29,6 @@ thumbnail: '/assets/posts/200410_citation_managers/paperpile.jpg'
 image: '/assets/posts/200410_citation_managers/papers.jpg'
 ---
 
-_Reading Time: 7 minutes_
-
 As researchers, we get through dozens or even hundreds of papers per year. Science has never been bigger - the total global scientific output [doubles every nine years](http://blogs.nature.com/news/2014/05/global-scientific-output-doubles-every-nine-years.html) - and keeping track of everything can feel impossible at the best of times. This is where citation managers come in!
 
 Keeping an electronic list of papers lets you search, categorise and tag your entire library of papers. Most citation managers let you output reference lists to Word or LaTeX, saving you countless hours of trying to insert references into your own publications. All of the options below integrate with the cloud, so you can access your research library from anywhere - and they all allow you to extend this collaboratively, so that your group/co-authors can share reference lists.

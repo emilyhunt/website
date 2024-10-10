@@ -9,8 +9,6 @@ thumbnail: '/assets/posts/191119_microphone_technique/0_mic.jpg'
 image: '/assets/posts/191119_microphone_technique/5_headset.jpg'
 ---
 
-_Reading Time: 7 minutes_
-
 _This article was originally posted on [AstroBetter](https://www.astrobetter.com/blog/2019/07/08/microphone-technique-demystified-level-up-your-public-speaking/), based on [a Twitter thread](https://twitter.com/emilydoesastro/status/1135578195976228865) I made that went rather viral._
 
 Public speaking is an essential skill in academia. Whether at a conference or while giving a lecture, public speaking is an unavoidable (and sometimes dreaded) part of a career in science. There are an endless number of things to learn about how to be a better presenter: Who do I look at? How much should I put on my slides? How can I keep within time limits? Yet one crucial topic is often overlooked: Microphones, and how to use them.

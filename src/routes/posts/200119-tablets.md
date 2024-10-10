@@ -24,8 +24,6 @@ thumbnail: '/assets/posts/200119_tablets/remarkable.jpg'
 image: '/assets/posts/200119_tablets/remarkable.jpg'
 ---
 
-_Reading Time: 5 minutes_
-
 Back in 2015 when I started my undergrad degree, I tried (with limited success) to work exclusively on a Surface Pro 3. The technology was almost there, but certain niggling issues made it still feel like I was beta testing a nearly-finished tool. However, five more years of progress has ironed out almost all of the bugs, and I now firmly believe that working electronically can be more productive than working on paper.
 
 The latest styluses feel great to write with, and a multitude of well-integrated software options make annotating papers, taking notes or even sketching diagrams into an absolute breeze on a modern tablet. You don’t ever have to use a printer again!

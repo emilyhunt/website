@@ -14,8 +14,6 @@ image: '/assets/posts/240311-gaia-cluster-masses/header.webp'
         <a href="https://drive.google.com/drive/folders/1TBqPST9vxSmOaoaFUWPh64_4Ni1Ytusk?usp=drive_link" class="button button-base-text" style="text-decoration: none">Download data</a>
 </div>
 
-_Reading time: 5 minutes_ 
-
 The trilogy is complete! The third paper from my PhD has been accepted. This paper **observationally defines** one of the oldest objects in astronomy -- open clusters -- while also producing the **largest and most accurate catalogue ever** of Milky Way star cluster radii and masses, using these to set new theoretical constraints on the overall star cluster population.
 
 This blog post will go over the key findings and figures.

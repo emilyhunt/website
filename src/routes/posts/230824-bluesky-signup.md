@@ -10,8 +10,6 @@ thumbnail: '/assets/posts/230824-bluesky-signup/thumbnail.webp'
 image: '/assets/posts/230824-bluesky-signup/header.webp'
 ---
 
-_Reading time: 5 minutes_ -- _Last updated: 20th August 2024_
-
 
 Since Elon Musk's takeover of Twitter, the platform has gotten **much, much worse**. There's [more hate speech](https://www.nytimes.com/2022/12/02/technology/twitter-hate-speech.html), the familiar 'blue check' has been turned into a [paid-for service](https://www.nytimes.com/2023/03/31/technology/personaltech/twitter-blue-check-musk.html) to get your content seen, and Twitter (now renamed to X) has even toyed with crazy ideas like removing the ability to [block other users](https://variety.com/2023/digital/news/elon-musk-x-twitter-block-feature-delete-1235699759/). 
 

@@ -24,8 +24,6 @@ image: '/assets/posts/230324-gaia-cluster-catalogue/header.webp'
         <a href="https://drive.google.com/drive/folders/1-9R9132g9FGq6xfcjYI5qMWDFYnMttUG?usp=share_link" class="button button-base-text" style="text-decoration: none">Download data</a>
 </div>
 
-_Reading time: 2 minutes_
-
 For the second paper of my PhD (Astronomy & Astrophysics, accepted), I made a catalogue of star clusters using data from Gaia DR3. It was a huge, huge undertaking, with a total of 729 million stars used as input and a whole range of machine learning methods used to analyse it all. Here's a quick summary of the paper (before I show you some plots.)
 
 Star clusters are hugely useful in astronomy, with open clusters in particular (my research interest) being used for lots of different purposes: like studies of stellar evolution, studies of our galaxy's structure, or calibrating standard candles used in cosmology (like Cepheid variable stars). So it's safe to say that having good-quality catalogues is important, which is why we set out to make one - leaving no stone unturned to make it as good as possible!

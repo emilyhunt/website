@@ -26,8 +26,6 @@ image: '/assets/posts/210216_clustering_algorithms_gaia/crossmatches_wide.jpg'
         <a href="https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/646/A104" class="button button-base-text" style="text-decoration: none">Download data</a>
 </div>
 
-_Reading Time: 8 minutes_
-
 Over a dozen papers have reported new discoveries of open clusters in Gaia data at the time of writing, in less than three years since the release of Gaia DR2. At the core of all papers in this field are **clustering algorithms**. Gaia data contains over 1 billion stars – far too much to accurately search through by hand, like astronomers once did before the 21st century. The many different algorithms that have been tried for this task have never been compared before in an astronomy context – meaning that we **simply don’t know** how their reliabilities, sensitivities and speeds compare. So: that’s what we tried to answer!
 
 In [my first ever published paper](https://ui.adsabs.harvard.edu/abs/2021A%26A...646A.104H/abstract) out now in Astronomy & Astrophysics, I worked with my supervisor [Sabine Reffert](https://www.lsw.uni-heidelberg.de/users/sreffert/) on laying the groundwork for the rest of my PhD. We compared a lineup of three different algorithms, and actually found that a method that hasn’t been used for open clusters before (HDBSCAN) is better than the existing literature approaches. However, it also required a lot of development to adapt it for astronomy – especially to reduce its false positive rate.
