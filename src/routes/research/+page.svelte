@@ -54,7 +54,7 @@
 	<Button short alt href="https://github.com/emilyhunt" target="_blank">Check out my GitHub</Button>
 </ImageWithText>
 
-<CallToAction>
+<CallToAction padding=60px margin=100px>
 	<h2>Find out more:</h2>
 	<Button
 		href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5555-8058&sort=date+desc"

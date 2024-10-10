@@ -4,7 +4,7 @@
 
 <div
 	class="full-width"
-	style="margin-top: {margin}; margin-bottom: {margin}; padding: {padding} 0 {padding} 0"
+	style="margin-top: {margin}; margin-bottom: {margin}; padding-top: {padding}; padding-bottom: {padding}"
 >
 	<div class="content-width">
 		{#if children}
