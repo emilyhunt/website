@@ -1,3 +1,6 @@
+// Even though this site is static, this actually has to be a .server.js:
+// https://www.reddit.com/r/sveltejs/comments/1892xq6/i_need_some_help_with_sveltekits_dynamic_routing/
+
 import { getPosts } from '../../lib/js/posts';
 import { redirect } from '@sveltejs/kit';
 
