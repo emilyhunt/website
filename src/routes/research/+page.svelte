@@ -1,26 +1,19 @@
 <script>
 	import ImageWithText from '$lib/blocks/ImageWithText.svelte';
+	import Button from '../../lib/blocks/Button.svelte';
+	import CallToAction from '../../lib/blocks/CallToAction.svelte';
+	import ResearchVideo from './ResearchVideo.svelte';
+	import { socials } from '$lib/config.js';
 </script>
 
 <!-- Video encoded with ffmpeg, see: -->
 <!-- https://jshakespeare.com/encoding-browser-friendly-video-files-with-ffmpeg/ -->
-<video
-	autoplay
-	muted
-	loop
-	id="background-video"
-	poster="/assets/video/research-background-thumbnail.jpg"
->
-	<source src="/assets/video/research-background-1080p.webm" type="video/webm" />
-	<source src="/assets/video/research-background-1080p.mp4" type="video/mp4" />
-</video>
 
-<div class="video-overlay">
-	<p style="margin-top: 150px">Modern astronomy needs modern methods.</p>
-	<p style="text-align: center; font-size: 150px"><a>↓</a></p>
-</div>
+<ResearchVideo />
 
+<div style="height: 50px"></div>
 
+<h1 id="info">My research themes</h1>
 
 <ImageWithText src="/assets/video/research-background-thumbnail.jpg">
 	<h2>Computer science x astronomy</h2>
@@ -28,9 +21,8 @@
 		Modern astronomical datasets are huge. I'm always looking to use the latest advances in computer
 		science to better understand data on our universe.
 	</p>
+	<Button short alt href="/blog/machine learning">Relevant papers</Button>
 </ImageWithText>
-
-<div style="height: 50px"></div>
 
 <ImageWithText swap src="/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp">
 	<h2>Star clusters</h2>
@@ -41,58 +33,46 @@
 			>my recent star cluster catalogue.</a
 		>
 	</p>
+	<Button short alt href="/blog/star clusters">Relevant papers</Button>
 </ImageWithText>
 
-<div style="height: 50px"></div>
-
-<ImageWithText src="/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp">
+<ImageWithText src="/assets/content/pl_relation.jpg" style="height: 300px;">
 	<h2>Stellar physics</h2>
 	<p>
 		You'll also find me using modern data in new ways to better understand our galaxy's stars. I'm
 		particularly interested in better stellar ages and stellar variability.
 	</p>
+	<Button short alt href="/blog/variable stars">Relevant papers</Button>
 </ImageWithText>
 
-<div style="height: 50px"></div>
-
-<ImageWithText swap src="/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp">
+<ImageWithText swap src="/assets/content/ocelot.png">
 	<h2>Open source software</h2>
-	<p>
-		TODO
+	<p style="margin-bottom: 10px">
+		Last off, I'm also strongly committed to open-source software principles. I think that science
+		is stronger when we all work together.
 	</p>
+	<Button short alt href="https://github.com/emilyhunt" target="_blank">Check out my GitHub</Button>
 </ImageWithText>
+
+<CallToAction>
+	<h2>Find out more:</h2>
+	<Button
+		href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5555-8058&sort=date+desc"
+		target="_blank">My publications on ADS</Button
+	>
+	<Button href="https://cv.emily.space" target="_blank">Check out my CV</Button>
+	<Button href="/blog/paper summaries">Blog posts about my papers</Button>
+</CallToAction>
+
+<h2>Want to work together? Email me!</h2>
+
+<p>
+	I strongly believe in collaborative science. <a href={socials.email}>Send me an email</a> if you want
+	to work together!
+</p>
 
 <style>
-	#background-video {
-		position: absolute;
-		object-fit: cover;
-		z-index: -1;
-		left: 0;
-		top: 0;
-		width: 100vw;
-		height: 100vh;
-		filter: contrast(150%) brightness(50%) saturate(150%);
+	h2 {
+		margin-top: 0px;
 	}
-
-	.video-overlay {
-		color: white;
-		margin-left: auto;
-		margin-right: auto;
-		width: 80%;
-		height: calc(100vh - 250px);
-	}
-
-	.video-overlay > p {
-		font-size: 50px;
-		font-family: var(--font-monospace);
-	}
-	.video-overlay > p > a {
-		color: white;
-	}
-	.video-overlay > p > a:hover {
-		color: var(--emilylightishgrey);
-	}
-    h2 {
-        margin-top: 0px;
-    }
 </style>
