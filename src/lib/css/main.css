@@ -7,7 +7,7 @@ body {
 
 
 /* TEXT */ 
-:root {
+:root, button {
     font-family: var(--font-text);
 }
 
