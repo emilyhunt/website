@@ -7,6 +7,7 @@
 
 	const metadata = data.metadata;
 
+	// Extract some date information!
 	let dateInformation = 'Date undefined';
 	if (metadata.date) {
 		dateInformation = formatDate(metadata.date);
