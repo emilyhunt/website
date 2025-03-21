@@ -86,14 +86,14 @@
 		z-index: 100;
 		position: absolute;
 		top: 0px;
-		left: 2.5vw;
-		width: 95vw;
+		right: 2.5vw;
+		width: 25vw;
 		text-align: right;
-		border-bottom: 1px solid var(--textColor);
+		/* border-bottom: 1px solid var(--textColor); */
 	}
 
 	/* Computers */
-	@media only screen and (min-width: 1000px) {
+	@media only screen and (min-width: 801px) {
 		.hamburger {
 			display: none;
 		}
@@ -105,7 +105,7 @@
 		}
 	}
 	/* Tablets */
-	@media screen and (min-width: 801px) and (max-width: 999px) {
+	/* @media screen and (min-width: 801px) and (max-width: 999px) {
 		.hamburger {
 			display: none;
 		}
@@ -115,15 +115,16 @@
 		.navigation > a:not(:first-child) {
 			margin-left: 30px;
 		}
-	}
+	} */
 	/* Phones */
 	@media screen and (max-width: 800px) {
 		.navigation {
 			display: none;
 			z-index: 100;
-			background-color: var(--emilylightishgrey);
+			background-color: var(--emilylightgrey);
+			border-left: 1px solid var(--textColor);
 			position: absolute;
-			width: 85vw;
+			width: 65vw;
 			right: 2.5vw;
 			flex-flow: column;
 			text-align: right;
@@ -140,7 +141,7 @@
 		.navigation > a {
 			margin-right: 10px;
 			text-transform: uppercase;
-			font-size: 35px;
+			font-size: 30px;
 			font-weight: 650;
 		}
 		.navigation > a:not(:first-child) {

@@ -2,22 +2,16 @@
 	import { page } from '$app/stores';
 	import Navigation from './Navigation.svelte';
 
-	function pathIs(string) {
-		return $page.url.pathname === string;
-	}
-
-	function pathStartsWith(string) {
-		return $page.url.pathname.startsWith(string);
-	}
-
 	const needsWhiteBackground = $derived($page.url.pathname === '/research');
 	const textColor = $derived(needsWhiteBackground ? 'white' : 'black');
 </script>
 
 <header style:--textColor={textColor}>
 	<div class="logo">
-		<h2 class="site-heading">Dr. Emily L. Hunt</h2>
-		<p class="site-subheading">ASTRONOMER & SCIENCE COMMUNICATOR</p>
+		<a href="/">
+			<h2 class="site-heading">Dr. Emily L. Hunt</h2>
+			<p class="site-subheading">ASTRONOMER & SCIENCE COMMUNICATOR</p>
+		</a>
 	</div>
 
 	<Navigation {textColor}/>
@@ -30,6 +24,16 @@
 		text-align: center;
 		margin-bottom: 30px;
 		color: var(--textColor);
+	}
+	a {
+		color: var(--textColor);
+	}
+	a:link,
+	a:visited {
+		color: var(--textColor);
+	}
+	a:hover {
+		color: var(--currentPageColor);
 	}
 	
 	.site-heading {
@@ -48,7 +52,7 @@
 		padding-bottom: 20px;
 	}
 	/* Computers */
-	@media only screen and (min-width: 1000px) {
+	@media only screen and (min-width: 801px) {
 		.site-heading {
 			font-size: 53px;
 		}
@@ -57,16 +61,19 @@
 		}
 	}
 	/* Tablets */
-	@media screen and (min-width: 801px) and (max-width: 999px) {
+	/* @media screen and (min-width: 801px) and (max-width: 999px) {
 		.site-heading {
 			font-size: 53px;
 		}
 		.site-subheading {
 			font-size: 19px;
 		}
-	}
+	} */
 	/* Phones */
 	@media screen and (max-width: 800px) {
+		header {
+			border-bottom: 1px solid var(--textColor);
+		}
 		.site-heading {
 			width: calc(100vw - 100px);
 			font-size: calc(100vw / 12);
@@ -74,6 +81,9 @@
 		.site-subheading {
 			width: calc(100vw - 100px);
 			font-size: calc(100vw / 30);
+		}
+		.logo {
+			padding-bottom: 15px;
 		}
 	}
 </style>
