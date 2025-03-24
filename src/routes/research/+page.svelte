@@ -44,7 +44,7 @@
 		You'll also find me using modern data in new ways to better understand our galaxy's stars. I'm
 		particularly interested in better stellar ages and stellar variability.
 	</p>
-	<Button short alt href="/blog/variable stars">Relevant papers</Button>
+	<Button short alt href="/blog/stars">Relevant papers</Button>
 </ImageWithText>
 
 <ImageWithText swap src="/assets/content/ocelot.png" margin={spacing}>
