@@ -11,7 +11,7 @@ export const socials = {
 	mastodon: 'https://mstdn.social/@emilydoesastro',
 	twitter: 'https://twitter.com/emilydoesastro',
 	github: 'https://github.com/emilyhunt',
-	email: 'mailto:emhunt@mpia.de'
+	email: 'mailto:emily.hunt.physics@gmail.com'
 };
 
 /* BLOG SETTINGS */
