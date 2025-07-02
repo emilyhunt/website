@@ -10,7 +10,7 @@ image: '/assets/posts/250602-anticentre-completeness/header.webp'
 paper: 'https://ui.adsabs.harvard.edu/abs/2025arXiv250618708H/abstract'
 ---
 
-The outskirts of our galaxy are a curious place for open clusters. Two clusters - Berkeley 29 and Saurer 1 - are further away from our galaxy's centre than any other known open clusters. More than 2 kpc ($\approx 6000$ light years) stand between the edge of the 'usual' cluster distribution and these two objects. Are they alone, or are there more clusters like them out there waiting to be discovered?
+The outskirts of our galaxy are a curious place for open clusters. Two clusters - Berkeley 29 and Saurer 1 - are further away from our galaxy's centre than any other known open clusters. More than 2 kpc (∼6000 light years) stand between the edge of the 'usual' cluster distribution and these two objects. Are they alone, or are there more clusters like them out there waiting to be discovered?
 
 ![The distribution of clusters in the Milky Way and its outskirts. Berkeley 29 and Saurer 1 are labelled, and are in an odd spot.](/assets/posts/250602-anticentre-completeness/distribution.png)
 
@@ -19,9 +19,9 @@ I led a paper where we tried to answer this and more about our galaxy's outer ed
 
 ## A tale of missing clusters
 
-The main problem we had to solve is that we don't know how many clusters could be missing from [a cluster catalogue](https://ui.adsabs.harvard.edu/abs/2024A%26A...686A..42H/abstract) like my own. The Milky Way should contain about $\sim 10^5$ open clusters in total, yet just $\approx 5600$ are known. The chances are that much of this 'empty void' without clusters could just be a **selection effect**, where some clusters are missing from our catalogue because they're too faint or hard to see.
+The main problem we had to solve is that we don't know how many clusters could be missing from [a cluster catalogue](https://ui.adsabs.harvard.edu/abs/2024A%26A...686A..42H/abstract) like my own. The Milky Way should contain about ∼10⁵ open clusters in total, yet just ≈5600 are known. The chances are that much of this 'empty void' without clusters could just be a **selection effect**, where some clusters are missing from our catalogue because they're too faint or hard to see.
 
-To solve this, we developed a novel **injection and retrieval** technique to empirically test the completeness of a cluster catalogue. Using a newly developed cluster simulation suite (which is open source in [ocelot](https://ocelot-docs.org/)!), we injected simulated clusters with known parameters into Gaia data, and then tried to retrieve them with an identical setup to the cluster detection pipeline from [my catalogue](https://ui.adsabs.harvard.edu/abs/2024A%26A...686A..42H/abstract).
+To solve this, we developed a new technique that uses **injection and retrieval** to empirically test the completeness of a cluster catalogue. Using a newly developed cluster simulation suite (which is open source in [ocelot](https://ocelot-docs.org/)!), we injected simulated clusters with known parameters into Gaia data, and then tried to retrieve them with an identical setup to the cluster detection pipeline from [my catalogue](https://ui.adsabs.harvard.edu/abs/2024A%26A...686A..42H/abstract).
 
 
 ## Why can't we see them?
