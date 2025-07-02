@@ -1,5 +1,5 @@
 ---
-title: "The Milky Way's disk is full of streams"
+title: "The Milky Way's disk is teeming with streams"
 date: 2025-03-28T00:00:00+01:00
 authors: ['Emily Hunt']
 tags: ['open cluster', 'gaia', 'gaia DR3', 'star cluster', 'disk stream']
