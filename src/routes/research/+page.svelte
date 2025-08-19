@@ -38,7 +38,7 @@
 	<Button short alt href="/blog/star clusters">Relevant papers</Button>
 </ImageWithText>
 
-<ImageWithText src="/assets/content/pl_relation.jpg" style="height: 300px;" margin={spacing}>
+<ImageWithText src="/assets/posts/250819-variable-stars-in-clusters/thumbnail.webp" style="height: 300px;" margin={spacing}>
 	<h2>Stellar physics</h2>
 	<p>
 		You'll also find me using modern data in new ways to better understand our galaxy's stars. I'm
