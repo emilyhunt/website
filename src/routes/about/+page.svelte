@@ -7,12 +7,24 @@
 </p>
 
 <p>
+	My research is mostly about the Milky Way and open clusters, and I have the most fun when I get to
+	do 'applied computer science' on otherwise-impossible astronomy tasks. There are a lot of really
+	amazing new techniques that have come out within the past few years and decades, and it's fun to
+	try applying them to otherwise difficult observational data. You'll catch me writing lots of code
+	(including this entire website) and publishing it over on <a
+		href="https://github.com/emilyhunt"
+		target="_blank">GitHub</a
+	>.
+</p>
+
+<p>
 	I've always thought that effectively communicating science is as important as doing science
 	itself. Throughout my PhD, I built a small online following by communicating my science on
 	Twitter. When Twitter was effectively ruined for outreach, I turned my attention to building a new
-	astronomy community on Bluesky. <a href="https://astrosky.eco/">The Astrosky Ecosystem</a> now includes
-	over two thousand astronomers and astronomy organizations, and is working towards becoming a permanent
-	home for astronomy outreach and communication online.
+	astronomy community on Bluesky. <a href="https://astrosky.eco/" target="_blank"
+		>The Astrosky Ecosystem</a
+	> now includes over two thousand astronomers and astronomy organizations, and is working towards becoming
+	a permanent home for astronomy outreach and communication online.
 </p>
 
 <p>
@@ -23,8 +35,8 @@
 </p>
 
 <p>
-	Outside of astronomy, I'm also a sound engineer, guitar player, cat lover,
-	and tea enthusiast. My favourite loose leaf tea is probably <a
+	Outside of astronomy, I'm also a sound engineer, guitar player, cat lover, and tea enthusiast. My
+	favourite loose leaf tea is probably <a
 		href="https://en.wikipedia.org/wiki/Sencha"
 		target="_blank">sencha</a
 	>, a lovely green tea from Japan.

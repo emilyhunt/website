@@ -12,7 +12,8 @@
 
 	<p>
 		I'm also interested in online science communication and <a
-			href="https://astrosky.eco/">new kinds of social media</a
+			href="https://astrosky.eco/"
+			target="_blank">new kinds of social media</a
 		> for communication and outreach.
 	</p>
 </ImageWithText>
