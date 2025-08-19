@@ -10,6 +10,8 @@ image: '/assets/posts/250819-stars-form-clusters/header.webp'
 paper: 'https://arxiv.org/abs/2508.12788'
 ---
 
+_[Header image: ESO/T. Preibisch](https://www.eso.org/public/unitedkingdom/images/eso1208db/?lang)_
+
 Whether most stars form in clusters is an age-old question in star formation. Traditionally, it was assumed that all stars form in open clusters, and as these clusters disrupt, stars become unbound from their formation cluster and disperse into their host galaxy. More recent observations cast doubt on that, however -- suggesting that most clusters did **not** form in clusters.
 
 Well, the picture just got a lot clearer: when using the latest cluster and OB star catalogues and doing corrections for the **incompleteness** of both catalogues (which is critical!), it seems that most stars **did** form in clusters. Our [short new letter accepted in A&A](https://arxiv.org/abs/2508.12788) and led by [Alexis Quintana](https://bsky.app/profile/did:plc:bmmlpj56k5wrpqun3w2zq6ta) at the Paris Observatory came out today!

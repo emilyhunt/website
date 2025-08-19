@@ -1,5 +1,5 @@
 ---
-title: "A bird's eye view of variable stars in clusters"
+title: "A bird's-eye view of variable stars in clusters"
 date: 2025-08-19T00:00:00+01:00
 authors: ['Emily Hunt']
 tags: ['open cluster', 'gaia', 'gaia DR3', 'star cluster', 'variable star', 'stellar evolution']
