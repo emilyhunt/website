@@ -84,6 +84,10 @@ function filterMetadata(sortedPosts) {
 
 function getAllPostCategories(posts) {
 	let allCategories = new Set();
+	for (const post in posts) {
+		console.log(posts[post])
+
+	}
 	posts.forEach((post) => allCategories.add(...post.categories));
 	allCategories = new Array(...allCategories).sort();
 	return allCategories;
