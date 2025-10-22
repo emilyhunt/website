@@ -9,7 +9,7 @@ This is the repo of [my personal website](https://emily.space) (October 2024 red
 ## Image sizes
 
 - Blog thumbnails recommended: 400px x 326px
-- Blog headers recommended: 1170px x 466px
+- Blog headers recommended: 1200px x 500px (will crop by ~100px per side horizontally for social cards)
 
 
 ## Developing
