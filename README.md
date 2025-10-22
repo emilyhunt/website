@@ -6,6 +6,12 @@
 This is the repo of [my personal website](https://emily.space) (October 2024 redesign). The site is static, hosted on GitHub pages, and is built with [SvelteKit](https://kit.svelte.dev/) and Svelte 5.
 
 
+## Image sizes
+
+- Blog thumbnails recommended: 400px x 326px
+- Blog headers recommended: 1170px x 466px
+
+
 ## Developing
 
 Install dependencies with:
