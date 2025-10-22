@@ -14,7 +14,7 @@ The outskirts of our galaxy are a curious place for open clusters. Two clusters 
 
 ![The distribution of clusters in the Milky Way and its outskirts. Berkeley 29 and Saurer 1 are labelled, and are in an odd spot.](/assets/posts/250602-anticentre-completeness/distribution.png)
 
-I led a paper where we tried to answer this and more about our galaxy's outer edge. It was recently accepted to A&A, and is out now on the arXiv!
+I [led a paper](https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.273H/abstract) where we tried to answer this and more about our galaxy's outer edge. It was recently accepted to A&A, and is [out now on the arXiv!](https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.273H/abstract)
 
 
 ## A tale of missing clusters
