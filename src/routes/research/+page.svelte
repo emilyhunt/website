@@ -20,40 +20,51 @@
 <ImageWithText src="/assets/video/research-background-thumbnail.jpg">
 	<h2>Computer science x astronomy</h2>
 	<p>
-		Modern astronomical datasets are huge. I'm always looking to use the latest advances in computer
-		science to better understand data on our universe.
+		Modern astronomical datasets are huge. I use machine learning to help analyse them, and am even
+		developing my own algorithms and techniques.
 	</p>
 	<Button short alt href="/blog/machine learning">Relevant papers</Button>
 </ImageWithText>
 
-<ImageWithText swap src="/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp" margin={spacing}>
+<ImageWithText
+	swap
+	src="/assets/posts/230324-gaia-cluster-catalogue/age_distribution_800.webp"
+	margin={spacing}
+>
 	<h2>Star clusters</h2>
 	<p>
-		Most of my time is spent on improving understanding of our galaxy's star clusters. The video on
-		this page shows the locations of the clusters from <a
+		Most of my time is spent on improving understanding of our galaxy's star clusters: the video
+		above shows the locations of the clusters from <a
 			href="https://ui.adsabs.harvard.edu/abs/2023arXiv230313424H/abstract"
-			>my recent star cluster catalogue.</a
+			target="_blank">my recent star cluster catalogue.</a
 		>
 	</p>
 	<Button short alt href="/blog/star clusters">Relevant papers</Button>
 </ImageWithText>
 
-<ImageWithText src="/assets/posts/250819-variable-stars-in-clusters/thumbnail.webp" style="height: 300px;" margin={spacing}>
-	<h2>Stellar physics</h2>
-	<p>
-		You'll also find me using modern data in new ways to better understand our galaxy's stars. I'm
-		particularly interested in better stellar ages and stellar variability.
-	</p>
-	<Button short alt href="/blog/stars">Relevant papers</Button>
-</ImageWithText>
-
-<ImageWithText swap src="/assets/content/ocelot.png" margin={spacing}>
-	<h2>Open source software</h2>
+<ImageWithText src="/assets/content/astrosky-ecosystem.webp" margin={spacing}>
+	<h2>Software & the web</h2>
 	<p style="margin-bottom: 10px">
-		Last off, I'm also strongly committed to open-source software principles. I think that science
-		is stronger when we all work together.
+		I'm a passionate open-source software contributor and I spend a lot of time writing code. My
+		main focus is
+		<a href="https://astrosky.eco/" target="_blank">The Astrosky Ecosystem</a>, an outreach and
+		communication project that I founded.
 	</p>
 	<Button short alt href="https://github.com/emilyhunt" target="_blank">Check out my GitHub</Button>
+</ImageWithText>
+
+<ImageWithText
+	swap
+	src="/assets/posts/250819-variable-stars-in-clusters/thumbnail.webp"
+	style="height: 300px;"
+	margin={spacing}
+>
+	<h2>Stellar physics</h2>
+	<p>
+		Finally, you'll also find me using modern data in new ways to better understand our galaxy's
+		stars. I'm particularly interested in better stellar ages and stellar variability.
+	</p>
+	<Button short alt href="/blog/stars">Relevant papers</Button>
 </ImageWithText>
 
 <CallToAction padding="60px" margin="100px">
