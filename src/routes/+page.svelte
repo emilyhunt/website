@@ -3,7 +3,7 @@
 </script>
 
 <ImageWithText src="assets/emily.png">
-	<h1 style="margin-top: 0px">Hi! I'm Emily.</h1>
+	<h1 style="margin-top: 15px; font-size: 37px">A little bit about me</h1>
 
 	<p>
 		I'm an astronomer currently based in Vienna, Austria. <a href="/research">My research</a> applies
